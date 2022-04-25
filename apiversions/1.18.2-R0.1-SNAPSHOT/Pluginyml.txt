@@ -1,0 +1,15 @@
+name: pluginName
+
+version : 1.0
+
+author: yourName
+
+main: path.to.the.main.file
+
+api-version: 1.18.2
+
+commands:
+  commandName:
+    description: Description.
+    usage: /commandName
+    permission: pluginName.pluginPermission

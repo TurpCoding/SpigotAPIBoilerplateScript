@@ -1,0 +1,22 @@
+package reverse.domain.pluginName;
+
+import org.bukkit.Material;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
+
+public class commandName implements CommandExecutor {
+
+    @Override
+    public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
+
+	// Check if commandSender is a player, if so cast it to the Player class.
+        if (!(commandSender instanceof Player)) {
+            return false;
+        }
+        Player player = (Player) commandSender;
+
+        return true;
+    }
+}
