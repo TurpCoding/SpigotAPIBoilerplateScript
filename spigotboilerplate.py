@@ -1,7 +1,7 @@
 # Simple script to generate boilerplate code for your SpigotAPI projects.
 # Currently generating boilerplate code for SpigotAPI apiversions: 1.18.2-R0.1-SNAPSHOT through x.x.x
 # Version 1.0
-# GitHub page:
+# GitHub repository: github.com/TurpCoding/SpigotAPIBoilerPlateScript
 
 import os.path
 from argparse import ArgumentParser
